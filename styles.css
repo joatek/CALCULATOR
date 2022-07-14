@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    min-height: 500px;
+    padding: 10px;
+    margin-top: 50px;
+}
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgb(82, 82, 205);
+}
+
+.btn {
+    padding: 20px;
+    border: 2px black solid;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(242, 196, 196);
+}
+
+.btn:active {
+    transform: translateY(3px);
+}
+
+.divScreen {
+    padding: 10px 20px;
+    border: 2px black solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(107, 235, 10);
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.displayUpper {
+    min-height: 35px;
+    font-size: 23px;
+}
+  
+.displayLower {
+    min-height: 70px;
+    font-size: 46px;
+}
+
+.divCalculatorBtn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.clear {
+    grid-column: span 4;
+}
