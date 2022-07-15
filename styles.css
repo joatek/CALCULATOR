@@ -46,12 +46,13 @@
     word-break: break-all;
 }
 
-.displayUpper {
+.displayPreviousOperand {
     min-height: 35px;
     font-size: 23px;
+    opacity: .4;
 }
   
-.displayLower {
+.displayCurrentOperand {
     min-height: 70px;
     font-size: 46px;
 }
@@ -63,5 +64,5 @@
 }
 
 .clear {
-    grid-column: span 4;
+    grid-column: span 2;
 }
